@@ -167,7 +167,7 @@ export default function Home() {
               <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
                 {/* Numpy{" "} */}
                 <div className="mx-auto">
-                  <Image alt=" " src={"/Numpy.jpg"} width={40} height={40} className="mx-auto rounded-md" />
+                  <Image alt=" " src={"/numpy.png"} width={40} height={40} className="mx-auto rounded-md" />
                 </div>
                 <div>
                   Numpy
