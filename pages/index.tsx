@@ -148,7 +148,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">SKILLS</h3>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-0 dark:text-white">
+          <div className="lg:grid lg:grid-cols-4 gap-x-10 gap-y-0 dark:text-white">
             <div className="flex flex-col items-center text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white">
               <Image
                 alt=" "
