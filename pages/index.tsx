@@ -112,7 +112,7 @@ export default function Home() {
             </h2>
             
             <h3 className="text-center font-serif text-xl py-0 md:text-xl dark:text-white">
-              Machine Learning Engineer
+              Business Data Analyst
             </h3>
             <h3 className="flex text-center justify-center text-sm py-0 md:text-sm dark:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" className="flex text-center h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
@@ -120,23 +120,20 @@ export default function Home() {
               </svg>
               United States
             </h3>
-            <div className="float-left relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 dark:text-white">
+            <div className="float-left relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96 dark:text-white">
             <Image alt=" " src={jesh} layout="fill" objectFit="cover" />
             </div>
           
             <div>
             <p className="flex text-justify text-md pl-10 leading-8 mt-8 text-gray-800 dark:text-white">
-            I'm a Data Science Grad student and work as a Machine Learning Engineer at the University of Cincinnati. 
-            My research currently is on 'Video Summarization,' which involves developing an unsupervised deep learning model for the automatic generation of video summaries. 
-            I have experience developing ML solutions for Video, Audio, and NLP tasks from my projects and experience.
+            Hello, I'm a Computer Science Grad and a Business Data Analyst, with a strong background in business intelligence, and strategic data-driven decision-making.
+            My strong communication and stakeholder management skills enable me to collaborate effectively with cross-functional teams and bridge the gap between business and technology. 
             </p>
             <p className="flex text-justify text-md pl-10 leading-8 text-gray-800 dark:text-white">
-            Being a person who always tries to complete tasks in an optimized/intelligent manner, it has always been my dream to be able to use my skills to develop AI-powered systems that can optimize and speed up our lives by transforming data into valuable assets.
-            </p>
-            <p className="flex text-justify text-md pl-10 leading-8 text-gray-800 dark:text-white">
-            As an ML engineer, I worked on building machine learning solutions and developed end-to-end data-driven products on cloud environments - AWS. 
-            Training the chatbot with vast amounts of data, detecting the customers' emotions, and drawing insights from social media has given me immense experience as a data scientist and a cloud architect. 
-            I also gained experience in software development working at Amazon Inc. 
+            My expertise lies in requirements gathering, documentation, meeting facilitation, design and development of complex solutions.
+            I excel at delivering engaging project presentations and demonstrations. 
+            I have a strong passion for collecting and analyzing large amounts of data to deliver data-driven actionable insights. 
+            I’m proficient in programming languages such as Python, Java and SQL, and in working with data/BI tools.
             </p>
             </div>
 
@@ -148,7 +145,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">SKILLS</h3>
           </div>
-          <div className="lg:grid lg:grid-cols-4 gap-x-10 gap-y-0 dark:text-white">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-0 dark:text-white">
             <div className="flex flex-col items-center text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white">
               <Image
                 alt=" "
@@ -165,9 +162,33 @@ export default function Home() {
               </h5>
               <div className="grid grid-cols-2 gap-2" >
               <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
+                <div className="mx-auto">
+                <Image alt=" " src={"/excel.png"} width={40} height={40} className="mx-auto"/>
+                </div>
+                <div>
+                  Excel
+                </div>
+              </div>
+              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
+                <div className="mx-auto">
+                <Image alt=" " src={"/tableau.png"} width={40} height={40} className="mx-auto"/>
+                </div>
+                <div>
+                  Tableau
+                </div>
+              </div>
+              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
+                <div className="mx-auto">
+                <Image alt=" " src={"/powerbi.png"} width={40} height={40} className="mx-auto rounded-md"/>
+                </div>
+                <div>
+                  PowerBI
+                </div>
+              </div>
+              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
                 {/* Numpy{" "} */}
                 <div className="mx-auto">
-                  <Image alt=" " src={"/numpy.png"} width={40} height={40} className="mx-auto rounded-md" />
+                  <Image alt=" " src={"/Numpy.jpg"} width={40} height={40} className="mx-auto rounded-md" />
                 </div>
                 <div>
                   Numpy
@@ -191,123 +212,16 @@ export default function Home() {
                   Matplotlib
                 </div>
               </div>
-              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
-                {/* Seaborn */}
+              {/* <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
                 <div className="mx-auto">
                 <Image alt=" " src={"/seaborn.png"} width={40} height={40} className="mx-auto"/>
                 </div>
                 <div>
                   Seaborn
                 </div>
-              </div>
-              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
-                {/* Matplotlib */}
-                <div className="mx-auto">
-                <Image alt=" " src={"/tableau.png"} width={40} height={40} className="mx-auto"/>
-                </div>
-                <div>
-                  Tableau
-                </div>
-              </div>
-              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
-                {/* Matplotlib */}
-                <div className="mx-auto">
-                <Image alt=" " src={"/powerbi.png"} width={40} height={40} className="mx-auto rounded-md"/>
-                </div>
-                <div>
-                  PowerBI
-                </div>
-              </div>
+              </div> */}
               </div>
               
-            </div>
-            <div className="col-span-2 flex  flex-col items-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-              <Image
-                alt=" "
-                className="rounded-md"
-                src={MachineLearning}
-                width={80}
-                height={80}
-              />
-              <h3 className=" text-gray-800 text-lg font-medium pt-2">
-                Machine Learning & Deep Learning
-              </h3>
-              <h5 className=" text-gray-700 text-sm font-normal pb-2">
-                Using
-              </h5>
-                <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
-                  <div className="mx-auto">
-                  <Image alt=" "
-                    src={"/scikit_learn.png"}
-                    width={80}
-                    height={80} className="mx-auto rounded-md"/>
-                  </div>
-                  <div>
-                  Scikit Learn
-                  </div>
-                </div>
-                <div className="items-left">
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  Regression
-                </button>
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  Classification
-                </button>
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  Clustering
-                </button>
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  Regularization
-                </button>
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  Evaluation metrics
-                </button>
-                </div>
-
-                <div className="grid grid-cols-2 gap-2" >
-              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
-                <div className="mx-auto">
-                <Image alt=" " src={"/pytorch.png"} width={30} height={30} className="mx-auto rounded-md"/>
-                </div>
-                <div>
-                  PyTorch
-                </div>
-              </div>
-              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
-                <div className="mx-auto">
-                <Image alt=" " src={"/tensorflow.png"} width={30} height={30} className="mx-auto rounded-md"/>
-                </div>
-                <div>
-                  TensorFlow
-                </div>
-              </div>
-              </div>
-              <div className="items-left">
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  RNN
-                </button>
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  LSTM
-                </button>
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  Transformers
-                </button>
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  Generative Adversarial Networks
-                </button>
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  Graph Neural Network
-                </button>
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  Natural Language Processing (NLP)
-                </button>
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  Word embeddings
-                </button>
-                <button className="px-2 py-0.5 rounded-full text-xs font-sm bg-sky-100 text-blue-600 mr-1 mb-1">
-                  Image Feature Extraction
-                </button>
-                </div>
             </div>
 
             <div className=" flex  flex-col items-center text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
@@ -388,6 +302,30 @@ export default function Home() {
                 </div>
                 <div>
                   MongoDB
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
+                <div className="mx-auto">
+                <Image alt=" "
+                  src={"/html.png"}
+                  width={40}
+                  height={40} className="mx-auto rounded-md"/>
+                </div>
+                <div>
+                  HTML
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
+                <div className="mx-auto">
+                <Image alt=" "
+                  src={"/css.png"}
+                  width={40}
+                  height={40} className="mx-auto rounded-md"/>
+                </div>
+                <div>
+                  CSS
                 </div>
               </div>
 
@@ -530,7 +468,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
+                {/* <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
                   <div className="mx-auto">
                   <Image alt=" "
                     src={"/kafka.png"}
@@ -552,35 +490,36 @@ export default function Home() {
                   <div>
                     Databricks
                   </div>
+                </div> */}
+
+                <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
+                  <div className="mx-auto">
+                  <Image alt=" "
+                    src={"/jira.png"}
+                    width={35}
+                    height={35} className="mx-auto rounded-md"/>
+                  </div>
+                  <div>
+                    Jira
+                  </div>
                 </div>
 
                 <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
-                <div className="mx-auto">
-                <Image alt=" "
-                  src={"/html.png"}
-                  width={40}
-                  height={40} className="mx-auto rounded-md"/>
+                  <div className="mx-auto">
+                  <Image alt=" "
+                    src={"/confluence.png"}
+                    width={35}
+                    height={35} className="mx-auto rounded-md"/>
+                  </div>
+                  <div>
+                    Confluence
+                  </div>
                 </div>
-                <div>
-                  HTML
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
-                <div className="mx-auto">
-                <Image alt=" "
-                  src={"/css.png"}
-                  width={40}
-                  height={40} className="mx-auto rounded-md"/>
-                </div>
-                <div>
-                  CSS
-                </div>
-              </div>
+                
               </div>
 
              
-              <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
+              {/* <div className="grid grid-cols-1 gap-1 text-gray-800 py-1 flex items-center">
                 <div className="mx-auto">
                 <Image alt=" "
                   src={"/flask.png"}
@@ -590,7 +529,18 @@ export default function Home() {
                 <div>
                   Flask
                 </div>
-              </div>
+              </div> */}
+              <div className="grid grid-cols-1 gap-1 text-gray-800 py-3 flex items-center">
+                  <div className="mx-auto">
+                  <Image alt=" "
+                    src={"/ms_suite.png"}
+                    width={180}
+                    height={180} className="mx-auto rounded-md"/>
+                  </div>
+                  <div>
+                    MS Suite
+                  </div>
+                </div>
 
               </div>
 
@@ -606,13 +556,12 @@ export default function Home() {
               <h3 className="text-gray-800 text-lg font-medium pt-7 pb-2 ">
                 Certifications
               </h3>
-              
               <div className="grid grid-cols-6 gap-2" >
               <div className="items-center pt-4">
               <Image
                   className="rounded-md items-center"
                   alt=" "
-                  src={"/michigan.jpeg"}
+                  src={"/ba_cert.jpeg"}
                   width={40}
                   height={40}
                 />
@@ -620,12 +569,51 @@ export default function Home() {
               
               <div className="col-span-5 grid grid-cols-1 gap-1 text-gray-800 py-1 flex justify-start">
                 <div className="text-lg text-left">
-                Applied Machine Learning in Python
+                Business Analysis Fundamentals - ECBA, CCBA, CBAP endorsed
                 </div>
                 <div className="text-md text-left">
-                University of Michigan
+                Udemy
                 </div>
-                <div><a href="https://drive.google.com/file/d/1l4zYuYoN8bysKg_mAuH9wk4SLRgTL0XQ/view" target="_blank" rel="noopener noreferrer"><p className="text-sm text-left">Certificate</p></a></div>
+                <div><a href="https://www.udemy.com/certificate/UC-fac22df5-4c39-4e23-bc2c-6c526c41ec8c/" target="_blank" rel="noopener noreferrer"><p className="text-sm text-left">Certificate</p></a></div>
+              </div>
+              <div className="items-center pt-4">
+              <Image
+                  className="rounded-md items-center"
+                  alt=" "
+                  src={"/agile_cert.jpeg"}
+                  width={40}
+                  height={40}
+                />
+              </div>
+              
+              <div className="col-span-5 grid grid-cols-1 gap-1 text-gray-800 py-1 flex justify-start">
+                <div className="text-lg text-left">
+                Agile with Atlassian Jira
+                </div>
+                <div className="text-md text-left">
+                Atlassian
+                </div>
+                <div><a href="https://www.coursera.org/account/accomplishments/verify/3R7XGBDVXC5K" target="_blank" rel="noopener noreferrer"><p className="text-sm text-left">Certificate</p></a></div>
+              </div>
+
+              <div className="items-center pt-4">
+              <Image
+                  className="rounded-md items-center"
+                  alt=" "
+                  src={"/sql_cert.jpeg"}
+                  width={40}
+                  height={40}
+                />
+              </div>
+              
+              <div className="col-span-5 grid grid-cols-1 gap-1 text-gray-800 py-1 flex justify-start">
+                <div className="text-lg text-left">
+                Complete SQL Mastery
+                </div>
+                <div className="text-md text-left">
+                Code With Mosh
+                </div>
+                <div><a href="https://drive.google.com/drive/u/4/folders/1P8cNY4TSMbZ08oAS1yY3gFMVpBKsU9yU" target="_blank" rel="noopener noreferrer"><p className="text-sm text-left">Certificate</p></a></div>
               </div>
 
               <div className="items-center pt-4">
@@ -647,26 +635,7 @@ export default function Home() {
                 </div>
                 <div><a href="https://drive.google.com/file/d/1Ww5bSkJXbKNukemCjXZmShqp1WRvfWLt/view" target="_blank" rel="noopener noreferrer"><p className="text-sm text-left">Certificate</p></a></div>
               </div>
-              
-              <div className="items-center pt-4">
-              <Image
-                  className="rounded-md items-center"
-                  alt=" "
-                  src={"/dl_ai.jpeg"}
-                  width={40}
-                  height={40}
-                />
-              </div>
-              
-              <div className="col-span-5 grid grid-cols-1 gap-1 text-gray-800 py-1 flex justify-start">
-                <div className="text-lg text-left">
-                Artificial Intelligence
-                </div>
-                <div className="text-md text-left">
-                DeepLearning.AI
-                </div>
-                <div><a href="https://drive.google.com/file/d/1y8kpEmWxdpBS5T6jLTuuTwaTaUJjS0bP/view" target="_blank" rel="noopener noreferrer"><p className="text-sm text-left">Certificate</p></a></div>
-              </div>
+
 
               <div className="items-center pt-4">
               <Image
@@ -687,7 +656,6 @@ export default function Home() {
                 </div>
                 <div><a href="https://drive.google.com/file/d/17vk1lwGZTHVh3fyLwLADBE0GEsstrg0-/view" target="_blank" rel="noopener noreferrer"><p className="text-sm text-left">Certificate</p></a></div>
               </div>
-
               </div>
 
             </div>
@@ -727,7 +695,7 @@ export default function Home() {
               }
             >
               <h3 className="vertical-timeline-element-title mb-2">
-                Machine Learning Engineer
+              Data Analyst
               </h3>
               <div className="mb-2">
                 <Accordion defaultActiveKey="0" flush>
@@ -808,7 +776,7 @@ export default function Home() {
               }
             >
               <h3 className="vertical-timeline-element-title mb-2">
-                System Development Intern
+                System Development Engineer
               </h3>
               <div className="mb-2">
                 <Accordion defaultActiveKey="0" flush>
@@ -854,7 +822,7 @@ export default function Home() {
               }
             >
               <h3 className="vertical-timeline-element-title mb-2">
-                Machine Learning Engineer [Innovation Team]
+              Business/Data Analyst
               </h3>
               <div className="mb-2">
                 <Accordion defaultActiveKey="0" flush>
@@ -944,7 +912,7 @@ export default function Home() {
               }
             >
               <h3 className="vertical-timeline-element-title mb-2">
-                Machine Learning Intern
+                Data Research Intern 
               </h3>
               <div className="mb-2">
                 <Accordion defaultActiveKey="0" flush>
@@ -988,7 +956,7 @@ export default function Home() {
               }
             >
               <h3 className="vertical-timeline-element-title mb-2">
-                Data Science Intern
+                Data Analyst Intern
               </h3>
               <div className="mb-2">
                 <Accordion defaultActiveKey="0" flush>
